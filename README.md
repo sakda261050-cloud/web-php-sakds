@@ -1,2 +1,3 @@
-# web-php-sakds
-web php project
+# sakda kuesetong
+* รห้สนักศึกษา 69319010021
+* แผนกวิชา โทคโนโลยีสารสนเทศ
