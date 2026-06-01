@@ -1,0 +1,56 @@
+<?php
+$fullName = "ศักดา เกื้อสีทอง";
+$department = "แผนกวิชาเทคโนโลยีสารสนเทศ";
+$studentId = "69319010021";
+$age = 18;
+
+echo "
+<style>
+    body{
+        font-family: Tahoma, sans-serif;
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .card{
+        background: white;
+        width: 400px;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    h1{
+        text-align: center;
+        color: #0077cc;
+    }
+
+    p{
+        background: #f4f4f4;
+        padding: 12px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    b{
+        color: #333;
+    }
+</style>
+
+<div class='card'>
+    <h1>ข้อมูลนักศึกษา</h1>
+
+    <p><b>ชื่อ-นามสกุล:</b> $fullName</p>
+
+    <p><b>แผนกวิชา:</b> $department</p>
+
+    <p><b>รหัสนักศึกษา:</b> $studentId</p>
+
+    <p><b>อายุ:</b> $age ปี</p>
+</div>
+";
+?>
